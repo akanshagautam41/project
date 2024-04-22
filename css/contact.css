@@ -1,0 +1,426 @@
+
+body{
+    background:white;
+    height: inherit;
+    
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    height: inherit;
+   
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+}
+
+.banner .text{
+    width: 90%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-transform: capitalize;
+   
+    }
+    .text p{
+        font-size: 60px;  
+    }
+    .text nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .text nav a:hover{
+        color:orange;
+    }
+
+    /* header part start */
+    /* header{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 2s linear;
+
+        
+    }
+    header .logo{
+        padding: 5px 25px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+   
+    header span{
+        position: absolute;
+        right: 6px;
+        border: 5px solid grey;
+        border-radius: 5px;
+        top: 1px;
+        margin: 10px;
+        padding: 5px 10px;
+        
+    }
+    #menu{
+        padding-top: 10px;
+    }
+    
+    header nav a{
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        padding: 5px 25px;
+    
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header nav a:hover{
+        color:orange;
+    }
+    
+    .clr{
+        color: white;
+    }
+    .nw{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: black;
+        /* color: red !important; */
+        /* z-index: 45;
+    }
+    
+    span{
+        color: white;
+        font-size: 25px;
+        padding: 10px;
+        display: none;
+    }
+    
+    .hide{
+        display: block;
+       } */
+    /* header part end */
+    
+    /* footer css start */
+    /* footer nav{
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        }
+        nav a{
+        padding: 20px;
+        text-decoration: none;
+        color: #6a6d73;
+        }
+        
+        footer{
+        margin-top: 20px;
+        width: 100%;
+        /* height: 40vh; */
+        /* display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: black;
+        }
+        footer .frm{
+        width: 30%;
+        color: white;
+        padding-top: 20px;
+        
+        }
+        .frm h2{
+            color: grey;
+        }
+        .frm input{
+        width: 80%;
+        padding: 10px;
+        border: 5px solid sandybrown;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 10px;
+        
+        }
+        .frm button{
+        width: 30%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 2px solid sandybrown;
+        }
+        .social-icon{
+        width: 25%;
+        color: #6a6d73;
+        font-size: 20px; 
+        padding-top: 20px;
+        }
+        .social-icon a{
+        padding: 8px;
+        }
+        
+        .tt{
+        width: 30%;
+        color: #6a6d73;
+        font-size: 20px;
+        padding-top: 20px;
+        }
+        
+        .arrow{
+            width: 5%;
+        }
+        .arrow i{
+            width: 100%;
+            color: black;
+            font-size: 35px;
+          
+        }  */ 
+        /* footer css end */
+
+.main-box{
+width: 100%;
+}
+
+.main-box .con{
+background-color: #26498e;
+width: 100%;
+height: 60vh;
+color: aqua;
+}
+
+
+
+
+.contact{
+    width: 90%;
+    height: inherit;
+    margin: 10% auto;
+    text-align: center;
+    /* padding: 20px ; */
+align-items: center;
+}
+.contact .contact-text{
+    width: 90%;
+}
+.contact .contact-text h6{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace ;
+    text-decoration: underline sandybrown;
+  text-underline-offset: 10px;
+  color: sandybrown;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.contact .contact-text h1{
+    font-family:'Courier New', Courier, monospace ;
+    
+}
+
+.contact .qery{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+.qery .booking h5{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 30px;
+    color: sandybrown;
+    text-decoration: underline sandybrown;
+  text-underline-offset: 10px;
+}
+.qery .booking{
+    word-spacing: 10px;
+    text-align: center;
+}
+.qery .booking i{
+    padding-top: 10px;
+    color: sandybrown;
+
+}
+.qery .gernal h5{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 30px;
+    color: sandybrown;
+    text-decoration: underline sandybrown;
+  text-underline-offset: 10px;
+}
+.qery .gernal {
+    word-spacing: 10px;
+    text-align: center;
+}
+.qery .gernal i{
+    padding-top: 10px;
+    color: sandybrown;
+    
+}
+.qery .technical h5{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 30px;
+    color: sandybrown;
+    text-decoration: underline sandybrown;
+  text-underline-offset: 10px;
+}
+.qery .technical {
+    word-spacing: 10px;
+    text-align: center;
+}
+.qery .technical i{
+    padding-top: 10px;
+    color: sandybrown;
+}
+.contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.contact-form .ifrme-lft{
+    width: 48%;
+}
+.contact-form .formdt{
+    width: 48%;
+    margin: 20px auto;
+    
+   
+}
+
+.formdt .formtxt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    }
+    .formtxt .form-lgt{
+        width: 48%;
+    }
+.formtxt .form-lgt input{
+    width: 100%;
+    padding: 12px;
+}
+.formdt .formtxt2, .formtxt3, .formtxt4 {
+    margin: 20px auto;
+}
+.formtxt .form-rgt input{
+    width: 100%;
+    padding: 12px;
+}
+.formtxt .form-rgt{
+    width: 48%;
+    
+}
+.formtxt2 input{
+    width: 100%;
+    padding: 15px;
+   
+}
+
+.formtxt3 textarea{
+    width: 100%;
+    
+    padding: 25px;
+   
+}
+.formtxt4 button{
+    width: 100%;
+    
+    padding: 15px;
+    background-color: orange;
+    border: none;
+    color: antiquewhite;
+}
+
+.formtxt4 button:hover{
+    border-color: rgb(191, 128, 11);
+}
+
+
+
+
+@media screen and (max-width:780px){
+
+    .contact{
+        width: 75%;
+        text-align: center;
+        flex-direction: row;
+    }
+    .contact-form{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    .contact-form .ifrme-lft{
+        width: 100%;
+       
+    }
+    .contact-form .formdt{
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width:560px){
+header{
+      flex-direction: column;
+      text-align: center;
+
+    }
+    .contact{
+        width: 75%;
+        text-align: center;
+        flex-direction: row;
+    }
+    .contact-form{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    .contact .qery{
+        width: 100%;
+        text-align: center;
+    }
+    .contact  .contact-text{
+        width: 100%;
+    }
+    .contact-form .ifrme-lft{
+        width: 100%;
+       
+    }
+    .contact-form .formdt{
+        width: 100%;
+    }
+
+   
+}
+
+/* .clr{
+    color: white;
+} */
+
+/* header nav a{
+    color: white;
+} */

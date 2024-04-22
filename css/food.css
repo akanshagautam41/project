@@ -1,0 +1,210 @@
+
+
+.main-box{
+width: 100%;
+}
+
+.main-box .con{
+background-color: #26498e;
+width: 100%;
+height: 60vh;
+color: aqua;
+}
+
+.menu{
+    width: 90%;
+    height: inherit;
+    margin: 2% auto;
+    padding: 20px ;
+    text-align: center;
+    }
+    .menu .menu-text{
+        width: 90%;
+    }
+    .menu .menu-text h6{
+        font-size: 55px;
+        font-family:'Courier New', Courier, monospace ;
+        text-decoration: underline sandybrown;
+      text-underline-offset: 10px;
+      color: sandybrown;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .menu .menu-text h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .menu .menu-list{
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       margin-top: 30px;
+       /* border-bottom: 2px solid grey; */
+       
+    }
+
+    /* .menu-list .mn-list{
+        width: 20%;
+        border-bottom: 2px solid red;
+    } */
+    .mn-list a{
+        text-decoration: none;
+        
+
+    }
+    .mn-list i{
+        color: sandybrown;
+        font-size: 50px;
+    }
+    .mn-list p{
+        margin-bottom: 0%;
+        color: sandybrown;
+        font-size: 25px;
+    }
+    .mn-list h6{
+        margin-bottom: 0%;
+        color: black;
+        font-size: 25px;
+    }
+    
+
+.food{
+    width: 90%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.food .food-li{
+    width: 46%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.food .food-li .food-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6%;
+    flex-wrap: wrap;
+   
+}
+.food-li .food-list .food-img{
+    width: 25%;
+   
+}
+.food-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+.food-li .food-list .food-text{
+    width: 75%;
+    
+}
+.food-text .burger{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.burger .bur-name{
+    width: 65%;
+}
+.burger .bur-name h6{
+    font-size: 22px;
+}
+.burger .bur-price{
+    width: 35%;
+    
+}
+.burger .bur-price h6{
+    color: sandybrown;
+    text-align: end;
+    font-size: 20px;
+    
+}
+
+
+
+@media screen and (max-width:780px){
+
+    .menu{
+        width: 75%;
+        text-align: center;
+    }
+    .menu .menu-text{
+        width: 100%;
+        text-align: center;
+        font-size: 45%;
+    }
+    .menu .menu-list{
+        width: 100%;
+            text-align: center;
+    }
+    .food{
+        width: 80%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .food .food-li{
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .food .food-li .food-list img{
+        width: 80%;
+        height: 18vh;
+    }
+    
+}
+@media screen and (max-width:560px){
+    .menu{
+        width: 90%;
+        text-align: center;
+        
+    }
+
+    .menu .menu-text{
+        width: 90%;
+        text-align: center;
+font-size: 55%;
+    }
+    .menu .menu-text h1{
+        font-size: 25px;
+    }
+    
+    .menu .menu-list{
+        width: 100%;
+            text-align: center;
+            
+    }
+    .food{
+        width: 90%;
+        flex-direction: row;
+        align-items: center;
+    }
+    .food .food-li{
+        width: 100%;
+
+    }
+    .food .food-li .food-list img{
+        width: 100%;
+        height: 18vh;
+    }
+    
+
+    
+}

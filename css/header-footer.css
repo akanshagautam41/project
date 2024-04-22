@@ -1,0 +1,381 @@
+
+
+body{
+    background:white;
+    height: inherit;
+    
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    height: inherit;
+   
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+}
+
+.banner .text{
+    width: 90%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+   
+    }
+    .text p{
+        width: 90%;
+        font-size: 60px;  
+    }
+    .text nav a{
+        width: 90%;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .text nav a:hover{
+        color:orange;
+    }
+/* header part start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*  */
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 2s linear;
+}
+header .logo{
+    padding: 5px 25px;
+}
+
+header span{
+    position: absolute;
+    right: 6px;
+    border: 5px solid grey;
+    border-radius: 5px;
+    top: 1px;
+    /* margin: 10px; */
+    padding: 5px 10px;
+    /* background-color: black; */
+}
+#menu{
+    padding-top: 10px;
+   
+   
+}
+.f1{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 5px 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+   
+}
+header nav a:hover{
+    color:orange;
+}
+
+.clr{
+    color: white;
+}
+.nw{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: black !important;  
+    /* color: red !important; */
+    z-index: 45;
+}
+
+span{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    display: none;
+}
+
+.hide{
+    display: block;
+   }
+/* header part end */
+
+/* footer css start */
+footer nav{
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    }
+    nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: #6a6d73;
+    }
+    
+    footer{
+    margin-top: 20px;
+    width: 100%;
+    /* height: 40vh; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: black;
+    }
+    footer .frm{
+    width: 30%;
+    color: white;
+    padding-top: 20px;
+    
+    }
+    .frm h2{
+        color: grey;
+    }
+    .frm input{
+    width: 80%;
+    padding: 10px;
+    border: 5px solid sandybrown;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    
+    }
+    .frm button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid sandybrown;
+    }
+    .social-icon{
+    width: 25%;
+    color: #6a6d73;
+    font-size: 20px; 
+    padding-top: 20px;
+    }
+    .social-icon a{
+    padding: 8px;
+    }
+    
+    .tt{
+    width: 30%;
+    color: #6a6d73;
+    font-size: 20px;
+    padding-top: 20px;
+    }
+    
+    .arrow{
+        width: 5%;
+        height: 12vh;
+        background: sandybrown;
+        text-align: center;
+        transform: translateY(-15vh);
+        transition: ease-in-out, transform 1.2s ease-out;
+       
+    }
+    .arrow i{
+        width: 100%;
+        color: white;
+        font-size: 35px;
+        padding: 15px;
+    }
+    /* footer css end */
+    /* .check{
+        width: 100%;
+        color: red !important;
+        padding: 20px 0px;
+        text-align: center;
+        display: none;
+        
+    } */
+
+    @media screen and (max-width:780px){
+
+        footer{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            
+           }
+           footer nav{
+            width: 100%;
+            text-align: center;
+            margin: 3% 0%;
+           }
+           footer .social-icon{
+            width: 50%;
+            text-align: center;
+            margin: 2% 0%;
+            
+            
+           }
+           footer .tt{
+            width: 50%;
+            text-align: center;
+            margin: 2% 0%;
+           }
+           footer .frm{
+            width: 50%;
+           text-align: center;
+           margin: 2% 0%;
+           }
+           footer .arrow{
+            width: 15%;
+            position: absolute;
+            opacity: 0.8;
+           }
+           footer .arrow i{
+            width: 100%;
+        color: white;
+        font-size: 30px;
+        padding: 15px;
+            
+           }
+           header{
+            flex-direction: column;
+            align-items: flex-start;
+            }
+    
+         header span{
+            display: block !important;
+            display: flex;
+            align-self: flex-end;
+          
+    }
+    .banner{
+        width: 85%;
+        flex-direction: column;
+        font-size: 20px;
+        align-self: self-start;
+    }
+    .banner .text p{
+        width: 80%;
+        font-size: 30px;
+        
+    }
+    .banner .text nav{
+        width: 80%;
+        font-size: 30px;
+        
+    }
+
+        /* .logo{
+            display: none;
+        } */
+        
+        header nav{
+            display: none;
+            align-self: flex-end;
+            padding: 0;
+            
+        }
+         header nav a{
+            display: flex !important;
+            flex-direction: row;
+            color:white;
+            font-size: 18px;
+        } 
+        .text{
+            width: 30%;
+            bottom: 5%;
+            font-size: 20px;
+           
+        }
+    }
+    @media screen and (max-width:560px){
+    header{
+          flex-direction: column;
+          text-align: center;
+    
+        }
+        .banner{
+            width: 85%;
+            flex-direction: column;
+            /* font-size: 20px; */
+       
+        }
+        .banner .text p{
+            width: 90%;
+            font-size: 25px;
+            text-align: start;
+            
+        }
+        .banner .text nav{
+            width: 90%;
+            font-size: 10px;
+            text-align: start;
+           
+        }
+    
+        footer{
+            display: flex;
+            flex-direction: column !important;
+            width: 100%;
+            align-items: center;
+            
+           }
+           footer .social-icon{
+        width: 80%;
+            text-align: center;
+            margin: 0;
+            
+           }
+           /* .text{
+            width: 30%;
+            bottom: 5%;
+            font-size: 20px;
+           
+        }
+        .text nav{
+            width: 50%;
+            font-size: 20px;
+            flex-direction: column;
+        } */
+        footer .arrow{
+            width: 15%;
+            position: absolute;
+            opacity: 0.8;
+           }
+           footer .arrow i{
+            width: 100%;
+        color: white;
+        font-size: 30px;
+        padding: 15px;
+            
+           }
+         
+    }
+
+    .ak{
+        margin: 35% auto;
+    }
