@@ -1,4 +1,4 @@
-
+/* 
 body{
     background:white;
     height: inherit;
@@ -43,7 +43,7 @@ body{
     }
     .text nav a:hover{
         color:orange;
-    }
+    } */
 
 
     
@@ -171,12 +171,13 @@ flex-wrap: wrap;
     color: sandybrown;
 }
 .txt-dsl .ex-txt-rgt p{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 0rem;
     }
 
 .txt-dsl .ex-txt-rgt h6{
 text-transform: uppercase;
+font-size: 20px;
 
 }
 
@@ -203,7 +204,9 @@ text-transform: uppercase;
     font-size: 25px;
     margin-bottom: 0rem;
 }
-
+.txt-dsl2 .ex-text-lft h6{
+    font-size: 20px;
+}
 
 
 .about-rgt .btn{

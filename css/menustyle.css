@@ -1,4 +1,4 @@
-
+/* 
 body{
     background:white;
     height: inherit;
@@ -44,7 +44,7 @@ body{
     }
     .text nav a:hover{
         color:orange;
-    }
+    } */
 
 .main-box{
 width: 100%;
@@ -185,6 +185,9 @@ color: aqua;
 {
     border-bottom: 2px solid gray !important;
 }
+.Breakfast{
+    display: flex;
+}
 
 @media screen and (max-width:780px){
 
@@ -221,17 +224,21 @@ color: aqua;
 }
 @media screen and (max-width:560px){
     .menu{
-        width: 90%;
+        width: 100%;
         text-align: center;
+        
         
     }
     .menu .menu-text{
-        width: 90%;
+        width: 100%;
         text-align: center;
-font-size: 55%;
+
+    }
+    .menu .menu-text h6{
+        font-size: 35px;
     }
     .menu .menu-text h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .menu .menu-list{
@@ -239,17 +246,24 @@ font-size: 55%;
             text-align: center;
             
     }
+    .menu .menu-list p{
+        font-size: 20px;
+    }
+    .menu .menu-list h6{
+        font-size: 20px;
+    }
     .food{
-        width: 90%;
+        width: 100%;
         flex-direction: row;
         align-items: center;
+        justify-content: space-evenly;
     }
     .food .food-li{
-        width: 100%;
+        width: 80%;
 
     }
     .food .food-li .food-list img{
-        width: 100%;
+        width: 80%;
         height: 18vh;
     }
     

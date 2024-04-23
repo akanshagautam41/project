@@ -1,3 +1,4 @@
+
 function btn(){
     window.scrollTop({
         top : "0",
@@ -126,17 +127,7 @@ window.addEventListener("scroll",function(){
 })
 // nav sticky script end
 
-// nav script 
 
-
-            // var bar =document.getElementById("bar");
-            // var menu =document.getElementById("menu");
-            
-
-            // function navbar(){
-            //     menu.classList.toggle("hide");
-               
-            // }
            
         
 // nav script end
@@ -146,7 +137,7 @@ document.querySelector(".navbar").classList.toggle("hide")
 // document.querySelector(".banner").style.margin = "35% auto"
 document.querySelector(".banner").classList.toggle("ak")
 // document.getElementsByTagName("a").style.text = "black";
-document.querySelector("header").style.background = "darkgrey";
+document.querySelector("header").style.background = "darkslategray";
 })
 
 
@@ -158,7 +149,7 @@ document.querySelectorAll(".mn-list")[0].addEventListener("click",function(){
   document.querySelectorAll(".food")[0].style.display = "flex";
   document.querySelectorAll(".food")[1].style.display = "none";
   document.querySelectorAll(".food")[2].style.display = "none";
-  document.querySelectorAll(".mn-list")[0].style.borderBottom = "2px solid black"
+  document.querySelectorAll(".mn-list")[0].style.borderBottom = "2px solid darkgrey"
   document.querySelectorAll(".mn-list")[0].style.width = "20%"
   document.querySelectorAll(".mn-list")[1].style.borderBottom = "none"
   document.querySelectorAll(".mn-list")[2].style.borderBottom = "none"
@@ -169,7 +160,7 @@ document.querySelectorAll(".mn-list")[1].addEventListener("click",function(){
   document.querySelectorAll(".food")[1].style.display = "flex";
   document.querySelectorAll(".food")[0].style.display = "none";
   document.querySelectorAll(".food")[2].style.display = "none";
-  document.querySelectorAll(".mn-list")[1].style.borderBottom = "2px solid black"
+  document.querySelectorAll(".mn-list")[1].style.borderBottom = "2px solid darkgrey"
   document.querySelectorAll(".mn-list")[1].style.width = "20%"
   document.querySelectorAll(".mn-list")[0].style.borderBottom = "none"
   document.querySelectorAll(".mn-list")[2].style.borderBottom = "none"
@@ -180,7 +171,7 @@ document.querySelectorAll(".mn-list")[2].addEventListener("click",function(){
   document.querySelectorAll(".food")[2].style.display = "flex";
   document.querySelectorAll(".food")[0].style.display = "none";
   document.querySelectorAll(".food")[1].style.display = "none";
-  document.querySelectorAll(".mn-list")[2].style.borderBottom = "2px solid black"
+  document.querySelectorAll(".mn-list")[2].style.borderBottom = "2px solid darkgrey"
   document.querySelectorAll(".mn-list")[2].style.width = "20%"
   document.querySelectorAll(".mn-list")[0].style.borderBottom = "none"
   document.querySelectorAll(".mn-list")[1].style.borderBottom = "none"
@@ -200,27 +191,10 @@ document.getElementById("pre2").addEventListener("click",function(event){
     });
 
    
-
     
 
-// document.querySelectorAll(".menu-list")[0].addEventListener("click",function(){
-//   // document.querySelectorAll(".mn-list")[0].classList.add("border")
-//   document.querySelectorAll(".mn-list")[0].style.width = "20%";
-//   document.querySelectorAll(".mn-list")[0].style.border = "2px solid black"
-  
-// })
-
-// document.querySelectorAll(".menu-list")[1].addEventListener("click",function(){
-  
-//   document.querySelectorAll(".mn-list")[0].classList.remove("border")
-
-//   document.querySelectorAll(".mn-list")[1].classList.add("border")
-//   document.querySelectorAll(".mn-list")[0].style.width = "20%"
-  
-// })
 
 
-
-
+    
 
 

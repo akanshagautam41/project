@@ -29,6 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
     
 }
 header .logo{
@@ -42,7 +43,7 @@ header span{
     border: 5px solid grey;
     border-radius: 5px;
     top: 1px;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 5px 10px;
     
 }
@@ -74,7 +75,7 @@ header nav a:hover{
     width: 100%;
     position: fixed;
     top: 0;
-    background: black;
+    background: darkgrey;
     /* color: red !important; */
     z-index: 45;
 }
@@ -126,36 +127,7 @@ border: none;
    }
 
 @media screen and (max-width:760px) {
-     header{
-      flex-direction: column;
-      align-items: start;
-      
-} 
-    
-   header span{
-        display: block !important;
-        display: flex;
-        align-self: flex-end;
-      
-}
-    /* .logo{
-        display: none;
-    } */
-    
-   header nav{
-        display: none;
-        align-self: flex-end;
-        padding: 0;
-        
-    }
-   header  nav a{
-        display: flex !important;
-        flex-direction: row;
-        color:white;
-        font-size: 18px;
-    } 
-    
-
+  
     .data{
         width: 45%;
         bottom: 5%;
@@ -577,8 +549,40 @@ footer nav{
         font-size: 35px;
         padding: 15px;
     }
+    .ak{
+        margin: 35% auto;
+    }
     /* footer css end */
 @media screen and (max-width:760px){
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+        }
+
+     header span{
+        display: block !important;
+        display: flex;
+        align-self: flex-end;
+     }
+   
+    header nav{
+        display: none;
+        align-self: flex-end;
+        padding: 0;
+        
+    }
+     header nav a{
+        display: flex !important;
+        flex-direction: row;
+        color:white;
+        font-size: 18px;
+    } 
+    .text{
+        width: 30%;
+        bottom: 5%;
+        font-size: 20px;
+       
+    }
 .lunch{
 flex-direction: column;
 width: 100%;
@@ -684,9 +688,9 @@ width: 100%;
         width: 90%;
         margin: 0 2%;
    }
-   .main .rg-b{
+   .main .rg-b ,.text, .text1, .text2{
     width: 90%;
-    text-align: center;
+    text-align: center !important;
     margin: 2% 0%;
    }
    footer{

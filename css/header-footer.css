@@ -114,7 +114,7 @@ header nav a:hover{
     width: 100%;
     position: fixed;
     top: 0;
-    background: black !important;  
+    background: darkgray!important;  
     /* color: red !important; */
     z-index: 45;
 }
@@ -273,7 +273,7 @@ footer nav{
           
     }
     .banner{
-        width: 85%;
+        width: 100%;
         flex-direction: column;
         font-size: 20px;
         align-self: self-start;
@@ -319,21 +319,21 @@ footer nav{
     
         }
         .banner{
-            width: 85%;
+            width: 100%;
             flex-direction: column;
             /* font-size: 20px; */
        
         }
         .banner .text p{
-            width: 90%;
-            font-size: 25px;
-            text-align: start;
+            width: 100%;
+            font-size: 35px;
+            
             
         }
         .banner .text nav{
-            width: 90%;
-            font-size: 10px;
-            text-align: start;
+            width: 100%;
+            font-size: 25px;
+            
            
         }
     
@@ -377,5 +377,5 @@ footer nav{
     }
 
     .ak{
-        margin: 35% auto;
+        margin: 39% auto;
     }
