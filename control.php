@@ -11,13 +11,7 @@ class control extends model
         session_start();
                 model::__construct();
                 $url = $_SERVER['PATH_INFO'];
-                if(isset($_SESSION['uid']))
-                {
-                    $uid = $_SESSION['uid'];
-                    $where = array(
-                        "u_id"=>$uid
-                    );
-                }
+              
 switch($url){
     case "/index":
 
