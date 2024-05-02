@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="css/drinks.css">
 </head>
 <body>
+
+<?php 
+include "header-otherpage.php";
+?>
     
-        
+<!--         
         <div class="banner">
             <div class="overlay"></div>
             <img src="image/about-banner.avif" alt="">
@@ -35,13 +39,15 @@
     
             
             <nav id="menu" class="navbar">
-                <a href="menu.html" class="clr">Our Food</a>
-            <a href="drinks.html" class="clr">Our Drink</a>
-            <a href="reservation.html" class="clr">Reservation</a>
-            <a href="contact.html" class="clr">Contact Us</a>
+                <a href="menu.php" class="clr">Our Food</a>
+            <a href="drinks.php" class="clr">Our Drink</a>
+            <a href="reservation.php" class="clr">Reservation</a>
+            <a href="contact.php" class="clr">Contact Us</a>
+            <a href="register.php" class="clr">Register</a>
+        <a href="login.php" class="clr">Login</a>
             </nav>
            
-    </header>
+    </header> -->
     
     <div class="menu">
         <div class="menu-text">

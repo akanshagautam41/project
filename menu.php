@@ -10,39 +10,11 @@
 </head>
 <body>
     
-        
-        <div class="banner">
-            <div class="overlay"></div>
-            <img src="image/about-banner.avif" alt="">
-            <div class="text">
-                <p>Food Menu List</p>
-                <nav>
-                    <a href="#">Menu</a>
-                    <a href="index.html">home</a>
-                    <a href="blog.html">Blog</a>
-                </nav>
-            </div>
-        </div>
-       
-      
-        
-        <header>
-            
-            <div class="logo" id="log">
-                <img src="https://cdn.iconscout.com/icon/free/png-512/free-burger-3069113-2550746.png?f=webp&w=256" height="40" alt="">
-                <span id="bar" onclick="navbar()"><i class="fa-solid fa-bars"></i>  </span>
-            </div>
-    
-            
-            <nav id="menu" class="navbar">
-                <a href="food.html" class="clr">Our Food</a>
-            <a href="drinks.html" class="clr">Our Drink</a>
-            <a href="reservation.html" class="clr">Reservation</a>
-            <a href="contact.html" class="clr">Contact Us</a>
-            </nav>
-           
-    </header>
-    
+<?php 
+include "header-otherpage.php";
+?>
+
+
     <div class="menu">
         <div class="menu-text">
             <h6>Menu List</h6>

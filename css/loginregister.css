@@ -1,0 +1,13 @@
+
+.form{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   background: linear-gradient(#434242, #f9f9f9);
+   background-color: #9198e5;
+
+}
+
+.container{
+    background: linear-gradient(#64e682, #f78d6a);
+}

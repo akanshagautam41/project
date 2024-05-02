@@ -9,37 +9,10 @@
     <link rel="stylesheet" href="css/header-footer.css">
 </head>
 <body>
-    <div class="banner">
-        <div class="overlay"></div>
-        <img src="image/about-banner.avif" alt="">
-        <div class="text">
-            <p>Blog</p>
-            <nav>
-                <a href="#">Blog</a>
-                <a href="index.html">home</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-        </div>
-   
-
-    </div>
-    <header>
-            
-        <div class="logo" id="log">
-            <img src="https://cdn.iconscout.com/icon/free/png-512/free-burger-3069113-2550746.png?f=webp&w=256" height="40" alt="">
-            <span id="bar" onclick="navbar()"><i class="fa-solid fa-bars"></i>  </span>
-        </div>
-
-        
-        <nav id="menu" class="navbar">
-            <a href="menu.html" class="clr">Our Food</a>
-        <a href="drinks.html" class="clr">Our Drink</a>
-        <a href="reservation.html" class="clr">Reservation</a>
-        <a href="contact.html" class="clr">Contact Us</a>
-        </nav>
-       
-</header>
+<?php 
+include "header-otherpage.php";
+?>
+    
 
 <div class="blog">
     <div class="blog-1">

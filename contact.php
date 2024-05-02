@@ -9,37 +9,10 @@
     <link rel="stylesheet" href="css/header-footer.css">
 </head>
 <body>
-    <div class="banner">
-        <div class="overlay"></div>
-        <img src="image/about-banner.avif" alt="">
-        <div class="text">
-            <p>Contact</p>
-            <nav>
-                <a href="#">Contact</a>
-                <a href="index.html">home</a>
-                <a href="food.html">food</a>
-            </nav>
-        </div>
-        </div>
-   
+<?php 
 
-    
-        <header>
-            
-            <div class="logo" id="log">
-                <img src="https://cdn.iconscout.com/icon/free/png-512/free-burger-3069113-2550746.png?f=webp&w=256" height="40" alt="">
-                <span id="bar" onclick="navbar()"><i class="fa-solid fa-bars"></i>  </span>
-            </div>
-    
-            
-            <nav id="menu" class="navbar">
-                <a href="menu.html" class="clr">Our Food</a>
-            <a href="drinks.html" class="clr">Our Drink</a>
-            <a href="reservation.html" class="clr">Reservation</a>
-            <a href="contact.html" class="clr">Contact Us</a>
-            </nav>
-           
-    </header>
+include "header-otherpage.php"
+?>
 
 
 <div class="contact">
@@ -102,7 +75,7 @@
     <a href="menu.html">Menu</a>
     <a href="blog.html">Blog</a>
     <a href="drinks.html">Drink</a>
-    <a href="contact.html">Contact Us</a>
+    <a href="contact.php">Contact Us</a>
     <a href="blog.html">Privacy Policy</a>
     <a href="index.html">Terms & Condition</a>
 </nav>

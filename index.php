@@ -21,33 +21,9 @@
     </style>
 </head>
 <body>
-        <div class="banner">
-            <div class="overlay"></div>
-            <video muted autoplay >
-                <source src="/image/banner.mp4" type="video/mp4">
-            </video>
-            <div class="data">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas doloremque a excepturi, odio minus sit in quibusdam adipisci inventore, repellat voluptates fuga quasi! Iure, vel.</p>
-               <a href="reservation.html">Book Table</a>
-            </div>
-        </div>
-
-        <header>
-            
-            <div class="logo" id="log">
-                <img src="https://cdn.iconscout.com/icon/free/png-512/free-burger-3069113-2550746.png?f=webp&w=256" height="40" alt="">
-                <span id="bar" onclick="navbar()"><i class="fa-solid fa-bars"></i>  </span>
-            </div>
-    
-            
-            <nav id="menu" class="navbar">
-                <a href="menu.html" class="clr">Our Food</a>
-            <a href="drinks.html" class="clr">Our Drink</a>
-            <a href="reservation.html" class="clr">Reservation</a>
-            <a href="contact.html" class="clr">Contact Us</a>
-            </nav>
-           
-    </header>
+        <?php 
+        include  "header.php"
+        ?>
 
  <!-- header end  -->
  <div class="box">
@@ -84,20 +60,20 @@
 <div class="main">
 
     <div class="lf-b">
-        <h2><a href="index.html">Duis a quam sem Vivamus elit felis</a></h2>
+        <h2><a href="index.php">Duis a quam sem Vivamus elit felis</a></h2>
         <div class="image">
         <div class="lft-img">
-            <a href="index.html"><img src="image/happy-waiter.jpg" alt=""></a>
+            <a href="index.php"><img src="image/happy-waiter.jpg" alt=""></a>
         </div>
         <div class="rgt-text">
             <p>This website template has been designed by <a href=""> freewebsitetemplates.com </a>for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. </p>
         </div>
         </div>
 
-        <h2><a href="index.html">Vestibulum at neque nibh condimentum</a></h2>
+        <h2><a href="index.php">Vestibulum at neque nibh condimentum</a></h2>
         <div class="image">
             <div class="lft-img">
-                <a href="index.html"><img src="image/food-item.avif" alt=""></a>
+                <a href="index.php"><img src="image/food-item.avif" alt=""></a>
             </div>
             <div class="rgt-text">
                 <p>If you're having problems editing this website template, then don't hesitate to ask for help on the <a href=""> freewebsitetem plates.com/forum.</a> </p><br>
