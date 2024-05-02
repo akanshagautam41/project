@@ -7,9 +7,17 @@ class control extends model
 
     function __construct()
     {
-
-        model::__construct();
-        $url = $_SERVER['PATH_INFO'];
+        error_reporting(0);
+        session_start();
+                model::__construct();
+                $url = $_SERVER['PATH_INFO'];
+                if(isset($_SESSION['uid']))
+                {
+                    $uid = $_SESSION['uid'];
+                    $where = array(
+                        "u_id"=>$uid
+                    );
+                }
 switch($url){
     case "/index":
 
